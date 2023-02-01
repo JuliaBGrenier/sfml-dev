@@ -500,3 +500,45 @@
 1641688264 source:c:\users\kico1\documents\tictactoe\source\state_menu.cpp
 	"../Include/State_Menu.h"
 
+1675282461 source:c:\users\kico1\documents\github\tictactoe\source\animation.cpp
+	"../Include/animation.h"
+
+1675282461 c:\users\kico1\documents\github\tictactoe\include\animation.h
+	<SFML/Graphics.hpp>
+	<SFML/System/Time.hpp>
+	<iostream>
+
+1675282461 source:c:\users\kico1\documents\github\tictactoe\source\main.cpp
+	"../Include/Application.h"
+
+1675282461 c:\users\kico1\documents\github\tictactoe\include\application.h
+	<SFML/Graphics.hpp>
+	"../Include/States.h"
+
+1675282461 c:\users\kico1\documents\github\tictactoe\include\states.h
+	"../Include/cState.h"
+	"../Include/State_Game.h"
+	"../Include/State_Menu.h"
+
+1675289225 c:\users\kico1\documents\github\tictactoe\include\cstate.h
+	<SFML/Graphics.hpp>
+
+1675282461 c:\users\kico1\documents\github\tictactoe\include\state_game.h
+	<iostream>
+	<SFML/Graphics.hpp>
+	"../Include/cState.h"
+	"../Include/animation.h"
+
+1675282461 c:\users\kico1\documents\github\tictactoe\include\state_menu.h
+	<iostream>
+	<string>
+	<SFML/Graphics.hpp>
+	"../Include/cState.h"
+	"../Include/State_Game.h"
+
+1675289358 source:c:\users\kico1\documents\github\tictactoe\source\state_game.cpp
+	"../Include/State_Game.h"
+
+1675289565 source:c:\users\kico1\documents\github\tictactoe\source\state_menu.cpp
+	"../Include/State_Menu.h"
+

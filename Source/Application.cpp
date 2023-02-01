@@ -16,9 +16,9 @@ void Application::run()
 
 	//Screens preparations
 	State_Game s0_game;
-	States.push_back(&s0_game);
-	State_Menu s1_menu(s0_game);
-	States.push_back(&s1_menu);
+	States.push_back(&s0_game); // ATTENTION CREATE A COPY
+	State_Menu s1_menu(s0_game); // ToDo => optimize
+	States.push_back(&s1_menu); // BUT using vector of pointers => debugging
 
 	//Main loop
 	while (currentState >= 0)

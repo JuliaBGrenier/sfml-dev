@@ -52,7 +52,6 @@ State_Menu::State_Menu(State_Game &s1)
 void State_Menu::handlePlayerInput(int x, int y)
 {
     mPlaying = true;
-    //std::cout << "sup cutie Cam Cam d'amour" << std::endl;
 }
 
 
